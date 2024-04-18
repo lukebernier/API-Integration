@@ -17,7 +17,9 @@ Output: daily_backup_mm-dd-yyyy.xlsx
 Change Log: 
 
    Version 0.0.1: 
+   
      - Added README.md
+     
      - Uploaded writeToFile.js
      
 Notes: 
