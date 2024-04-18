@@ -20,7 +20,9 @@ Change Log:
    
      - Added README.md
      
-     - Uploaded writeToFile.js
+     - Uploaded writeToFile.js (This file contains the basics of how we will need to create .xlsx files for Ripple import)
+
+     - Uploaded testREDCapCentral.js (This is a proof of concept for exporting data from REDCap Central)
      
 Notes: 
  - DO NOT UPLOAD POSTMAN COLLECTION .json FILES - THESE CONTAIN PASSWORD AND API KEY DATA
