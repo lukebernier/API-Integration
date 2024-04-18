@@ -24,5 +24,3 @@ Change Log:
 
      - Uploaded testREDCapCentral.js (This is a proof of concept for exporting data from REDCap Central)
      
-Notes: 
- - DO NOT UPLOAD POSTMAN COLLECTION .json FILES - THESE CONTAIN PASSWORD AND API KEY DATA
