@@ -10,13 +10,16 @@ Dependencies: Node.js, Postman Client, Visual Studio Code, JS Packages(newman, f
 
 Input:
 
-Output: test_global.xlsx
+Output: 
+
+        test_global.xlsx
         test_study.xlsx
         test_mm-dd-yyyy-hh-mm_global.xlsx
         test_mm-dd-yyyy-hh-mm_study.xlsx
 
 
 Change Log: 
+        
         Version 0.0.2:
                 - Uploaded REDCapCentral_Ripple_Integration_Upload.js (This file integrates RCC and Ripple)
 
