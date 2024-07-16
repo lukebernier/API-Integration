@@ -12,10 +12,10 @@ Input:
 
 Output: 
 
-        test_global.xlsx
-        test_study.xlsx
-        test_mm-dd-yyyy-hh-mm_global.xlsx
-        test_mm-dd-yyyy-hh-mm_study.xlsx
+        upload_global.xlsx
+        upload_study.xlsx
+        log_mm-dd-yyyy-hh-mm_global.xlsx
+        log_mm-dd-yyyy-hh-mm_study.xlsx
 
 
 Change Log: 
