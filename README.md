@@ -10,17 +10,21 @@ Dependencies: Node.js, Postman Client, Visual Studio Code, JS Packages(newman, f
 
 Input:
 
-Output: daily_backup_mm-dd-yyyy.xlsx
-        ripple_import_mm-dd-yyyy-hh:mm.xlsx
+Output: test_global.xlsx
+        test_study.xlsx
+        test_mm-dd-yyyy-hh-mm_global.xlsx
+        test_mm-dd-yyyy-hh-mm_study.xlsx
 
 
 Change Log: 
+        Version 0.0.2:
+                - Uploaded REDCapCentral_Ripple_Integration_Upload.js (This file integrates RCC and Ripple)
 
-   Version 0.0.1: 
+        Version 0.0.1: 
    
-     - Added README.md
+                - Added README.md
      
-     - Uploaded writeToFile.js (This file contains the basics of how we will need to create .xlsx files for Ripple import)
+                - Uploaded writeToFile.js (This file contains the basics of how we will need to create .xlsx files for Ripple import)
 
-     - Uploaded testREDCapCentral.js (This is a proof of concept for exporting data from REDCap Central)
+                - Uploaded testREDCapCentral.js (This is a proof of concept for exporting data from REDCap Central)
      
