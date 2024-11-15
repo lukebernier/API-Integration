@@ -19,6 +19,12 @@ Output:
 
 
 Change Log: 
+
+        Version 0.1.0:
+                - Modified REDCapCentral_Ripple_Integration_Upload.js
+                        - Added support for new surveys from ECHO
+                        - Only updates participants already in Ripple
+                        - Modifies partner family ID
         
         Version 0.0.2:
                 - Uploaded REDCapCentral_Ripple_Integration_Upload.js (This file integrates RCC and Ripple)
