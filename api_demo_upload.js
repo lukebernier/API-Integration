@@ -1,10 +1,14 @@
-// for postman -- you don't need anything in params, authorization should be set to no auth,
+// for postman
+
+// REDCap - use 'post' http request
+// you don't need anything in params, authorization should be set to no auth,
 // the headers can be default - in the body, you can use the redcap api playground to get the
 // necessary information such as content, action, format, type - make sure you use form-urlencoded
 // token = api token, content = record, action = export, format = json, type = flat
 // then use fields[0] to start getting data
 
-// for the ripple post - need importtype and updateoption - importtype is the unique study code 
+// for the ripple - use 'post' http request
+// need importtype and updateoption - importtype is the unique study code 
 // and updateoption will be all
 // You can get the link from the import page on Ripple but change admin to v1
 // Authorization is basic auth using ripple username and password
@@ -21,10 +25,6 @@ var run_count = 1; // we will need this to differentiate between exporting from 
 date_string_fname = get_date_string(1); // this gets the current date and time, and it will be useful
 // later when we are naming files
 
-// write this block of code, then add stuff to the middle - the stuff to add will be below for
-// reading ease
-
-//
 newman.run({
     collection: require('./Demos_test.postman_collection.json'),
     reporters: 'cli'
@@ -187,6 +187,3 @@ function csvJSON(csv){ // will need this function to parse data!! Make sure this
     //return result; //JavaScript object
     return JSON.stringify(result); //JSON
   }
-
-
-
